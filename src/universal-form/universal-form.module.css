@@ -1,0 +1,21 @@
+.header {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.universalForm {
+    width: var(--user-width);
+}
+
+.universalInputs {
+    border-radius: 10px;
+    outline: 1px solid white;
+    width: calc(100% - 40px);
+    padding: 20px;
+}
+
+.universalInputs>* {
+    margin-top: 20px;
+}
